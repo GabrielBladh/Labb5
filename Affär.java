@@ -13,7 +13,7 @@ public class Affär
         if (AntalVaror < MaxVaror) //om varor som kunden har köpt är mindre än 10
         {
             int AntalVarorPris = AntalVaror * VarorPris;
-            System.out.printf("Antal varor du vill köpa är mindre än 10, kostnaden blir %s", AntalVarorPris);
+            System.out.printf("Antal varor du vill köpa är mindre än 10, kostnaden blir %S", AntalVarorPris);
         }
         else //om varor som kunden har köpt är mer än 10
         {
