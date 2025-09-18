@@ -11,4 +11,3 @@ public class WordLength
         System.out.printf("Ordet %s är %d långt !%n", ord, OrdLängd);
     }
 }
-
