@@ -1,6 +1,8 @@
-public class Nestling {
-
-    int i = 0;
+public class Nestling 
+{
+    public static void main(String[] args)
+    {
+        int i = 0;
     String s = "s";
 
     if(i == 0 && s == "s" || s == "r")
@@ -19,5 +21,6 @@ public class Nestling {
     {
         System.out.println("3");
     }
-
+    }
+    
 }
