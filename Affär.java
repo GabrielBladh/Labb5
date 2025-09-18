@@ -9,7 +9,7 @@ public class Affär
         Scanner scan = new Scanner(System.in); //skannern för hur många varor kunden köpt
         System.out.println("Hur många varor har du köpt?");
         int AntalVaror = scan.nextInt(); //kollar hur många varor kunden köpt
-        
+        Scanner sc = new Scanner(System.in); //skannern för om kunden är VIP
 
         if (AntalVaror < MaxVaror) //om varor som kunden har köpt är mindre än 10
         {
@@ -18,7 +18,7 @@ public class Affär
         }
         else //om varor som kunden har köpt är mer än 10
         {
-            Scanner sc = new Scanner(System.in); //skannern för om kunden är VIP
+            
             System.out.println("Är du VIP kund?");
             Boolean VIP = sc.nextBoolean(); //kollar om kunden är VIP
             if (VIP = true) //Om kunden är VIP
