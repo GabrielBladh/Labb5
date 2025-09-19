@@ -13,7 +13,7 @@ public class Affär
         if (AntalVaror < MaxVaror) //om varor som kunden har köpt är mindre än 10
         {
             int AntalVarorPris = AntalVaror * VarorPris;
-            System.out.printf("Antal varor du vill köpa är mindre än 10, kostnaden blir %s", AntalVarorPris);
+            System.out.printf("Antal varor du vill köpa är mindre än 10, kostnaden blir %s kr", AntalVarorPris);
         }
         else //om varor som kunden har köpt är mer än 10
         {
@@ -25,7 +25,7 @@ public class Affär
                 double AntalVarorPris = AntalVaror * VarorPris * 0.9; 
                 System.out.printf("Antal varor du vill köpa är mer än 10 och är VIP kund och får därför reducerat pris! Kostnaden blir %s", AntalVarorPris);
             }
-            else if(VIP = false) //om kunden inte är VIP
+            if (VIP = false) //om kunden inte är VIP
             {
                 int AntalVarorPris = AntalVaror * VarorPris;
                 System.out.printf("Antal varor du vill köpa är mer än 10 men är inte VIP kund så du får inte reducerat pris. Kostanden blir %s", AntalVarorPris);
