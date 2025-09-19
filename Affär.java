@@ -13,12 +13,12 @@ public class Affär
         if (AntalVaror < MaxVaror) //om varor som kunden har köpt är mindre än 10
         {
             int AntalVarorPris = AntalVaror * VarorPris;
-            System.out.printf("Antal varor du vill köpa är mindre än 10, kostnaden blir %S", AntalVarorPris);
+            System.out.printf("Antal varor du vill köpa är mindre än 10, kostnaden blir %s", AntalVarorPris);
         }
         else //om varor som kunden har köpt är mer än 10
         {
             Scanner sc = new Scanner(System.in); //skannern för om kunden är VIP
-            System.out.println("Är du VIP kund?");
+            System.out.println("Är du VIP kund? Ange true eller false");
             Boolean VIP = sc.nextBoolean(); //kollar om kunden är VIP
             if (VIP = true) //Om kunden är VIP
             {
