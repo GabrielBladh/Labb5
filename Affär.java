@@ -20,12 +20,12 @@ public class Affär
             Scanner sc = new Scanner(System.in); //skannern för om kunden är VIP
             System.out.println("Är du VIP kund? Ange true eller false");
             Boolean VIP = sc.nextBoolean(); //kollar om kunden är VIP
-            if (VIP = true) //Om kunden är VIP
+            if (VIP == true) //Om kunden är VIP
             {
                 double AntalVarorPris = AntalVaror * VarorPris * 0.9; 
                 System.out.printf("Antal varor du vill köpa är mer än 10 och är VIP kund och får därför reducerat pris! Kostnaden blir %s kr", AntalVarorPris);
             }
-            if (VIP != true) //om kunden inte är VIP
+            else //om kunden inte är VIP
             {
                 int AntalVarorPris = AntalVaror * VarorPris;
                 System.out.printf("Antal varor du vill köpa är mer än 10 men är inte VIP kund så du får inte reducerat pris. Kostanden blir %s kr", AntalVarorPris);
